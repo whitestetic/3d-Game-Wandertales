@@ -1,0 +1,810 @@
+{
+  "generatorVersion": 1,
+  "generatedAt": "2026-11-06T11:48:39.221Z",
+  "residents": [
+    {
+      "id": "m01",
+      "name": "Pip Butterbloom",
+      "profession": "Baker",
+      "role": "Baker",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#b97d57",
+        "eyes": "#2a1f1a",
+        "height": 1.02,
+        "equipment": {
+          "torso": "shirt_linen",
+          "apron": "apron_cloth",
+          "feet": "sandals",
+          "hair": "hair_twin_tails"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#6b3e22"
+          },
+          "torso": {
+            "primary": "#cf7fa3"
+          }
+        }
+      }
+    },
+    {
+      "id": "m02",
+      "name": "Bram Ironhand",
+      "profession": "Blacksmith",
+      "role": "Blacksmith",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#5c3622",
+        "eyes": "#3e5c8a",
+        "height": 1.01,
+        "equipment": {
+          "torso": "shirt_linen",
+          "apron": "apron_leather_work",
+          "hands": "gloves_leather",
+          "feet": "boots_heavy",
+          "waist_side": "pouch",
+          "headwear": "hat_adventurer",
+          "hair": "hair_curly"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#3a2416"
+          },
+          "torso": {
+            "primary": "#5c4430"
+          },
+          "apron": {
+            "leather": "#7a4e2c"
+          }
+        }
+      }
+    },
+    {
+      "id": "m03",
+      "name": "Wren Thistle",
+      "profession": "Farmer",
+      "role": "Farmer",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#f6dcc6",
+        "eyes": "#5a5a5a",
+        "height": 0.99,
+        "equipment": {
+          "torso": "shirt_linen",
+          "headwear": "hat_farmer",
+          "feet": "boots_leather",
+          "waist": "belt_leather",
+          "hair": "hair_mage_swept"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#eeeeee"
+          },
+          "torso": {
+            "primary": "#9c3d3d"
+          }
+        }
+      }
+    },
+    {
+      "id": "m04",
+      "name": "Oli Fennick",
+      "profession": "Farmer",
+      "role": "Farmer",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#5c3622",
+        "eyes": "#6b3e22",
+        "height": 1.02,
+        "equipment": {
+          "torso": "tunic_green",
+          "headwear": "hat_farmer",
+          "feet": "sandals",
+          "hair": "hair_short_black"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#d7a64a"
+          },
+          "torso": {
+            "primary": "#3f6b3a"
+          }
+        }
+      }
+    },
+    {
+      "id": "m05",
+      "name": "Marigold Vane",
+      "profession": "Bartender",
+      "role": "Innkeeper",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#7a4a30",
+        "eyes": "#6b3e22",
+        "height": 0.96,
+        "equipment": {
+          "torso": "outfit_merchant",
+          "apron": "apron_cloth",
+          "feet": "boots_leather",
+          "neck": "scarf_red",
+          "hair": "hair_long"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#5a5a5a"
+          },
+          "torso": {
+            "primary": "#f2e3c6",
+            "secondary": "#9c3d3d"
+          }
+        }
+      }
+    },
+    {
+      "id": "m06",
+      "name": "Tobias Quill",
+      "profession": "Librarian",
+      "role": "Scholar",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#9a6142",
+        "eyes": "#b8392f",
+        "height": 0.97,
+        "equipment": {
+          "torso": "coat_traveler",
+          "neck": "medallion_guild",
+          "feet": "shoes_mage",
+          "hair": "hair_mage_swept"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#eeeeee"
+          },
+          "torso": {
+            "primary": "#2f2a35"
+          }
+        }
+      }
+    },
+    {
+      "id": "m07",
+      "name": "Juniper Lark",
+      "profession": "Merchant",
+      "role": "Merchant",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#efc9a8",
+        "eyes": "#6b3e22",
+        "height": 0.94,
+        "equipment": {
+          "torso": "coat_traveler",
+          "waist_side": "pouch",
+          "feet": "boots_leather",
+          "headwear": "hat_adventurer",
+          "hair": "hair_mage_swept"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#b8442e"
+          },
+          "torso": {
+            "primary": "#e8dcc8",
+            "secondary": "#4f7a45"
+          }
+        }
+      }
+    },
+    {
+      "id": "m08",
+      "name": "Finn Rowe",
+      "profession": "Fisherman",
+      "role": "Fisher",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#d39b72",
+        "eyes": "#3e5c8a",
+        "height": 1.02,
+        "equipment": {
+          "torso": "vest_leather",
+          "headwear": "hat_farmer",
+          "feet": "sandals",
+          "waist_side": "pouch",
+          "hair": "hair_short_black"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#c86fa0"
+          },
+          "torso": {
+            "primary": "#3f7a8c"
+          }
+        }
+      }
+    },
+    {
+      "id": "m09",
+      "name": "Hazel Moss",
+      "profession": "Builder",
+      "role": "Worker",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#d39b72",
+        "eyes": "#3f7a3a",
+        "height": 1.01,
+        "equipment": {
+          "torso": "vest_leather",
+          "hands": "gloves_leather",
+          "feet": "boots_heavy",
+          "waist": "belt_leather",
+          "hair": "hair_twin_buns"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#5a5a5a"
+          },
+          "torso": {
+            "primary": "#4f7a45",
+            "leather": "#6b4a2e"
+          }
+        }
+      }
+    },
+    {
+      "id": "m10",
+      "name": "Rosie Plum",
+      "profession": "Shopkeeper",
+      "role": "Merchant",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#e2b08a",
+        "eyes": "#b8392f",
+        "height": 0.94,
+        "equipment": {
+          "torso": "outfit_merchant",
+          "waist_side": "pouch",
+          "feet": "sandals",
+          "neck": "medallion_guild",
+          "hair": "hair_short_black"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#6b3e22"
+          },
+          "torso": {
+            "primary": "#e8dcc8",
+            "secondary": "#3e5c8a"
+          }
+        }
+      }
+    },
+    {
+      "id": "m11",
+      "name": "Corwin Ash",
+      "profession": "Cook",
+      "role": "Innkeeper",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#7a4a30",
+        "eyes": "#b8392f",
+        "height": 1.03,
+        "equipment": {
+          "torso": "outfit_merchant",
+          "apron": "apron_cloth",
+          "feet": "boots_leather",
+          "neck": "scarf_red",
+          "headwear": "hood",
+          "hair": "hair_twin_buns"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#6b3e22"
+          },
+          "torso": {
+            "primary": "#f2e3c6",
+            "secondary": "#6b4a2e"
+          }
+        }
+      }
+    },
+    {
+      "id": "m12",
+      "name": "Ivy Brightwater",
+      "profession": "Herbalist",
+      "role": "Healer",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#d39b72",
+        "eyes": "#b8392f",
+        "height": 0.97,
+        "equipment": {
+          "torso": "robe_plain",
+          "headwear": "hood",
+          "feet": "sandals",
+          "neck": "accessory_crystal_pendant",
+          "waist_side": "pouch",
+          "hair": "hair_short"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#8a3d9c"
+          },
+          "torso": {
+            "primary": "#e8dcc8",
+            "trim": "#d9b45a"
+          }
+        }
+      }
+    }
+  ],
+  "roleSamples": [
+    {
+      "role": "Blacksmith",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#5c3622",
+        "eyes": "#8a3d9c",
+        "height": 0.97,
+        "equipment": {
+          "torso": "tunic_green",
+          "apron": "apron_leather_work",
+          "hands": "gloves_leather",
+          "feet": "boots_heavy",
+          "hair": "hair_curly"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#3a2416"
+          },
+          "torso": {
+            "primary": "#5c4430"
+          },
+          "apron": {
+            "leather": "#6b4a2e"
+          }
+        }
+      }
+    },
+    {
+      "role": "Merchant",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#e2b08a",
+        "eyes": "#5a5a5a",
+        "height": 1.05,
+        "equipment": {
+          "torso": "coat_traveler",
+          "waist_side": "pouch",
+          "feet": "boots_leather",
+          "neck": "medallion_guild",
+          "headwear": "hat_adventurer",
+          "ears": "earrings_gold",
+          "hair": "hair_mage_swept"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#6b3e22"
+          },
+          "torso": {
+            "primary": "#f2e3c6",
+            "secondary": "#4f7a45"
+          }
+        }
+      }
+    },
+    {
+      "role": "Farmer",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#efc9a8",
+        "eyes": "#5a5a5a",
+        "height": 0.96,
+        "equipment": {
+          "torso": "shirt_linen",
+          "headwear": "hat_farmer_straw",
+          "feet": "sandals",
+          "hair": "hair_braided"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#6b3e22"
+          },
+          "torso": {
+            "primary": "#3e5c8a"
+          }
+        }
+      }
+    },
+    {
+      "role": "Knight",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#e2b08a",
+        "eyes": "#6b3e22",
+        "height": 1.01,
+        "equipment": {
+          "torso": "shirt_linen",
+          "chest_armor": "armor_iron",
+          "headwear": "helmet_iron",
+          "shoulders": "accessory_bronze_pauldron_pair",
+          "hands": "gloves_leather",
+          "legs": "leg_armor_iron",
+          "feet": "boots_knight",
+          "back": "cape_hero",
+          "hair": "hair_messy"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#2f5a3a"
+          },
+          "chest_armor": {
+            "primary": "#5b3d8a"
+          },
+          "back": {
+            "primary": "#b8392f"
+          }
+        }
+      }
+    },
+    {
+      "role": "Guard",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#f6dcc6",
+        "eyes": "#5a5a5a",
+        "height": 1,
+        "equipment": {
+          "torso": "tunic_green",
+          "chest_armor": "armor_iron",
+          "headwear": "helmet_iron",
+          "feet": "boots_knight",
+          "waist": "belt_leather",
+          "hair": "hair_messy_brown"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#3a2416"
+          },
+          "torso": {
+            "primary": "#3e5c8a"
+          }
+        }
+      }
+    },
+    {
+      "role": "Mage",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#9a6142",
+        "eyes": "#8a3d9c",
+        "height": 1,
+        "equipment": {
+          "torso": "robe_plain",
+          "headwear": "circlet_silver",
+          "feet": "shoes_mage",
+          "neck": "necklace_beads",
+          "hair_ornament": "ornament_star_pin",
+          "waist_side": "ornament_crystal_charm",
+          "hair": "hair_mage_swept"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#c9b28a"
+          },
+          "torso": {
+            "primary": "#8a3d9c"
+          },
+          "headwear": {
+            "primary": "#3e5c8a"
+          }
+        }
+      }
+    },
+    {
+      "role": "Healer",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#5c3622",
+        "eyes": "#5a5a5a",
+        "height": 1.01,
+        "equipment": {
+          "torso": "dress_simple",
+          "headwear": "hood",
+          "feet": "sandals",
+          "neck": "necklace_beads",
+          "hair": "hair_long_braid"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#4f6fb0"
+          },
+          "torso": {
+            "primary": "#f2e3c6",
+            "trim": "#d9b45a"
+          }
+        }
+      }
+    },
+    {
+      "role": "Ranger",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#e2b08a",
+        "eyes": "#b8392f",
+        "height": 1.03,
+        "equipment": {
+          "torso": "outfit_ranger_vest",
+          "hands": "gloves_leather",
+          "feet": "boots_leather",
+          "back": "accessory_adventurer_pack",
+          "waist": "belt_leather",
+          "hair": "hair_mage_swept"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#2f5a3a"
+          },
+          "torso": {
+            "primary": "#4f7a45"
+          }
+        }
+      }
+    },
+    {
+      "role": "Adventurer",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#b97d57",
+        "eyes": "#b8392f",
+        "height": 1.02,
+        "equipment": {
+          "torso": "outfit_traveler_coat",
+          "chest_armor": "armor_leather",
+          "headwear": "hat_adventurer",
+          "back": "accessory_adventurer_pack",
+          "feet": "boots_leather",
+          "waist_side": "pouch",
+          "hair": "hair_messy"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#3a2416"
+          },
+          "torso": {
+            "primary": "#3e5c8a"
+          }
+        }
+      }
+    },
+    {
+      "role": "Villager",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#f6dcc6",
+        "eyes": "#3e5c8a",
+        "height": 1.04,
+        "equipment": {
+          "torso": "dress_simple",
+          "feet": "sandals",
+          "waist": "belt_leather",
+          "neck": "scarf_red",
+          "hair": "hair_short_black"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#2f5a3a"
+          },
+          "torso": {
+            "primary": "#c98a4b"
+          }
+        }
+      }
+    },
+    {
+      "role": "Guild Master",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#5c3622",
+        "eyes": "#2a1f1a",
+        "height": 1.03,
+        "equipment": {
+          "torso": "coat_traveler",
+          "back": "cape_hero",
+          "neck": "medallion_guild",
+          "feet": "boots_heavy",
+          "waist": "belt_leather",
+          "hair": "hair_short"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#6b3e22"
+          },
+          "torso": {
+            "primary": "#2f4f7f"
+          },
+          "back": {
+            "primary": "#b8392f"
+          }
+        }
+      }
+    },
+    {
+      "role": "Innkeeper",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#b97d57",
+        "eyes": "#3f7a3a",
+        "height": 0.96,
+        "equipment": {
+          "torso": "outfit_merchant",
+          "apron": "apron_cloth",
+          "feet": "boots_leather",
+          "neck": "scarf_red",
+          "headwear": "hood",
+          "hair": "hair_short_black"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#2f5a3a"
+          },
+          "torso": {
+            "primary": "#f2e3c6",
+            "secondary": "#6b4a2e"
+          }
+        }
+      }
+    },
+    {
+      "role": "Baker",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#efc9a8",
+        "eyes": "#3f7a3a",
+        "height": 1.06,
+        "equipment": {
+          "torso": "shirt_linen",
+          "apron": "apron_cloth",
+          "feet": "sandals",
+          "hair": "hair_messy_brown"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#e5c06e"
+          },
+          "torso": {
+            "primary": "#cf7fa3"
+          }
+        }
+      }
+    },
+    {
+      "role": "Scholar",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#b97d57",
+        "eyes": "#6b3e22",
+        "height": 1,
+        "equipment": {
+          "torso": "robe_plain",
+          "headwear": "circlet_silver",
+          "neck": "medallion_guild",
+          "feet": "boots_leather",
+          "hair": "hair_short"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#4f6fb0"
+          },
+          "torso": {
+            "primary": "#2f2a35"
+          }
+        }
+      }
+    },
+    {
+      "role": "Worker",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#d39b72",
+        "eyes": "#5a5a5a",
+        "height": 0.97,
+        "equipment": {
+          "torso": "shirt_linen",
+          "hands": "gloves_leather",
+          "feet": "boots_heavy",
+          "waist": "belt_leather",
+          "headwear": "hat_adventurer",
+          "hair": "hair_long_braid"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#b8442e"
+          },
+          "torso": {
+            "primary": "#3f6b3a",
+            "leather": "#6b4a2e"
+          }
+        }
+      }
+    },
+    {
+      "role": "Fisher",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#b97d57",
+        "eyes": "#3e5c8a",
+        "height": 1.02,
+        "equipment": {
+          "torso": "tunic_green",
+          "headwear": "hat_farmer_straw",
+          "feet": "boots_heavy",
+          "waist_side": "pouch",
+          "hair": "hair_long"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#6b3e22"
+          },
+          "torso": {
+            "primary": "#3e5c8a"
+          }
+        }
+      }
+    },
+    {
+      "role": "Rogue",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#b97d57",
+        "eyes": "#b8392f",
+        "height": 1.01,
+        "equipment": {
+          "torso": "outfit_ranger",
+          "headwear": "hood",
+          "hands": "gloves_leather",
+          "feet": "boots_leather",
+          "waist_side": "pouch",
+          "hair": "hair_messy"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#8a3d9c"
+          },
+          "torso": {
+            "primary": "#3a2e26"
+          },
+          "headwear": {
+            "primary": "#2f2a35"
+          }
+        }
+      }
+    },
+    {
+      "role": "Paladin",
+      "appearance": {
+        "schemaVersion": 1,
+        "skin": "#f6dcc6",
+        "eyes": "#8a3d9c",
+        "height": 1.04,
+        "equipment": {
+          "torso": "shirt_linen",
+          "chest_armor": "armor_mage",
+          "headwear": "crown_gold",
+          "shoulders": "shoulder_guards_iron",
+          "feet": "boots_knight",
+          "back": "cape_hero",
+          "neck": "medallion_guild",
+          "hair": "hair_twin_tails"
+        },
+        "colors": {
+          "hair": {
+            "hair": "#5a5a5a"
+          },
+          "back": {
+            "primary": "#eeeeee"
+          }
+        }
+      }
+    }
+  ]
+}

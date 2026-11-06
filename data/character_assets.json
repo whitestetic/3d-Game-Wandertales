@@ -1,0 +1,1526 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-06T11:47:50.207Z",
+  "master": {
+    "file": "characters/base/chibi_master.glb",
+    "height": 0.475,
+    "joints": [
+      "_rootJoint",
+      "Hips_01",
+      "Spine_02",
+      "Spine1_03",
+      "Spine2_04",
+      "Neck_05",
+      "Head_06",
+      "HeadTop_End_07",
+      "RightShoulder_08",
+      "RightArm_09",
+      "RightForeArm_010",
+      "RightHand_011",
+      "RightHandIndex1_012",
+      "RightHandIndex2_013",
+      "RightHandIndex3_014",
+      "RightHandIndex2_015",
+      "Left_Shoulder_016",
+      "Left_Arm_017",
+      "Left_ForeArm_018",
+      "Left_Hand_019",
+      "Left_HandIndex1_020",
+      "Left_HandIndex2_021",
+      "Left_HandIndex3_022",
+      "Left_HandIndex2_023",
+      "RightUpLeg_024",
+      "RightLeg_025",
+      "RightFoot_026",
+      "RightToeBase_027",
+      "Left_UpLeg_00",
+      "Left_Leg_028",
+      "Left_Foot_029",
+      "Left_ToeBase_030"
+    ],
+    "materials": {
+      "skin": "wt_skin",
+      "eyes": "wt_eyes"
+    }
+  },
+  "channels": [
+    "primary",
+    "secondary",
+    "trim",
+    "leather",
+    "metal",
+    "hair",
+    "gem",
+    "cloth",
+    "dark"
+  ],
+  "assets": [
+    {
+      "id": "hair_short",
+      "name": "Short Hair",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_short.glb",
+      "thumbnail": "characters/thumbnails/hair_short.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "hair": "#4a2c1c"
+      },
+      "vertices": 216,
+      "triangles": 342,
+      "bytes": 22708,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_long",
+      "name": "Long Hair",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_long.glb",
+      "thumbnail": "characters/thumbnails/hair_long.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "hair": "#8a4b2a"
+      },
+      "vertices": 276,
+      "triangles": 450,
+      "bytes": 26904,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_ponytail",
+      "name": "Ponytail",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_ponytail.glb",
+      "thumbnail": "characters/thumbnails/hair_ponytail.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "hair": "#2b2220",
+        "trim": "#c94f4f"
+      },
+      "vertices": 282,
+      "triangles": 482,
+      "bytes": 28344,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_twin_tails",
+      "name": "Twin Tails",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_twin_tails.glb",
+      "thumbnail": "characters/thumbnails/hair_twin_tails.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "hair": "#e5c06e",
+        "trim": "#4f6fb0"
+      },
+      "vertices": 324,
+      "triangles": 538,
+      "bytes": 32136,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_braided",
+      "name": "Braided Hair",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_braided.glb",
+      "thumbnail": "characters/thumbnails/hair_braided.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "hair": "#6b3e22",
+        "trim": "#d9b45a"
+      },
+      "vertices": 438,
+      "triangles": 726,
+      "bytes": 37260,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_messy",
+      "name": "Messy Hair",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_messy.glb",
+      "thumbnail": "characters/thumbnails/hair_messy.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "hair": "#6b3e22"
+      },
+      "vertices": 292,
+      "triangles": 482,
+      "bytes": 27912,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_curly",
+      "name": "Curly Hair",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_curly.glb",
+      "thumbnail": "characters/thumbnails/hair_curly.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "hair": "#3a2416"
+      },
+      "vertices": 614,
+      "triangles": 1010,
+      "bytes": 45788,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_fantasy_spiky",
+      "name": "Fantasy Spiky Hair",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_fantasy_spiky.glb",
+      "thumbnail": "characters/thumbnails/hair_fantasy_spiky.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "hair": "#4f6fb0",
+        "gem": "#ffffff"
+      },
+      "vertices": 330,
+      "triangles": 542,
+      "bytes": 30896,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hat_farmer",
+      "name": "Farmer Hat",
+      "category": "headwear",
+      "slot": "headwear",
+      "file": "characters/headwear/hat_farmer.glb",
+      "thumbnail": "characters/thumbnails/hat_farmer.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "primary": "#e0c066",
+        "trim": "#9c3d3d"
+      },
+      "vertices": 68,
+      "triangles": 108,
+      "bytes": 15024,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hat_wizard",
+      "name": "Wizard Hat",
+      "category": "headwear",
+      "slot": "headwear",
+      "file": "characters/headwear/hat_wizard.glb",
+      "thumbnail": "characters/thumbnails/hat_wizard.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "primary": "#5b3d8a",
+        "trim": "#e7c35b"
+      },
+      "vertices": 80,
+      "triangles": 124,
+      "bytes": 16364,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hood",
+      "name": "Hood",
+      "category": "headwear",
+      "slot": "headwear",
+      "file": "characters/headwear/hood.glb",
+      "thumbnail": "characters/thumbnails/hood.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#4f6b45"
+      },
+      "vertices": 283,
+      "triangles": 476,
+      "bytes": 26668,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "helmet_iron",
+      "name": "Iron Helmet",
+      "category": "headwear",
+      "slot": "headwear",
+      "file": "characters/headwear/helmet_iron.glb",
+      "thumbnail": "characters/thumbnails/helmet_iron.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "metal": "#9aa0a8",
+        "trim": "#c94f4f"
+      },
+      "vertices": 186,
+      "triangles": 294,
+      "bytes": 21792,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "crown_gold",
+      "name": "Royal Crown",
+      "category": "headwear",
+      "slot": "headwear",
+      "file": "characters/headwear/crown_gold.glb",
+      "thumbnail": "characters/thumbnails/crown_gold.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "metal": "#e7c35b",
+        "gem": "#c23b3b"
+      },
+      "vertices": 184,
+      "triangles": 272,
+      "bytes": 21616,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "circlet_silver",
+      "name": "Silver Circlet",
+      "category": "headwear",
+      "slot": "headwear",
+      "file": "characters/headwear/circlet_silver.glb",
+      "thumbnail": "characters/thumbnails/circlet_silver.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "metal": "#d6d9de",
+        "gem": "#5fb3d6"
+      },
+      "vertices": 94,
+      "triangles": 176,
+      "bytes": 16016,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hat_adventurer",
+      "name": "Adventurer Hat",
+      "category": "headwear",
+      "slot": "headwear",
+      "file": "characters/headwear/hat_adventurer.glb",
+      "thumbnail": "characters/thumbnails/hat_adventurer.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "leather": "#7a4e2c",
+        "trim": "#c94f4f"
+      },
+      "vertices": 48,
+      "triangles": 78,
+      "bytes": 13892,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "shirt_linen",
+      "name": "Linen Shirt",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/shirt_linen.glb",
+      "thumbnail": "characters/thumbnails/shirt_linen.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "primary": "#f2e3c6",
+        "trim": "#c9a36a"
+      },
+      "vertices": 377,
+      "triangles": 570,
+      "bytes": 31992,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "tunic_green",
+      "name": "Tunic",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/tunic_green.glb",
+      "thumbnail": "characters/thumbnails/tunic_green.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#4f7a45",
+        "trim": "#d6c49a",
+        "leather": "#6b4a2e"
+      },
+      "vertices": 440,
+      "triangles": 650,
+      "bytes": 37040,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "robe_plain",
+      "name": "Robe",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/robe_plain.glb",
+      "thumbnail": "characters/thumbnails/robe_plain.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#8a6f5a",
+        "trim": "#e8dcc8"
+      },
+      "vertices": 454,
+      "triangles": 664,
+      "bytes": 36956,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "coat_traveler",
+      "name": "Traveler Coat",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/coat_traveler.glb",
+      "thumbnail": "characters/thumbnails/coat_traveler.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#7a5434",
+        "trim": "#d9b45a",
+        "secondary": "#f2e3c6"
+      },
+      "vertices": 504,
+      "triangles": 768,
+      "bytes": 40848,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "vest_leather",
+      "name": "Leather Vest",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/vest_leather.glb",
+      "thumbnail": "characters/thumbnails/vest_leather.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "leather": "#6b4a2e",
+        "trim": "#c9a36a"
+      },
+      "vertices": 174,
+      "triangles": 210,
+      "bytes": 19204,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "dress_simple",
+      "name": "Simple Dress",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/dress_simple.glb",
+      "thumbnail": "characters/thumbnails/dress_simple.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#cf7fa3",
+        "trim": "#f2e3c6"
+      },
+      "vertices": 301,
+      "triangles": 430,
+      "bytes": 28916,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "outfit_adventurer",
+      "name": "Adventurer Outfit",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/outfit_adventurer.glb",
+      "thumbnail": "characters/thumbnails/outfit_adventurer.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#3f7a8c",
+        "leather": "#7a4e2c",
+        "trim": "#d9b45a"
+      },
+      "vertices": 448,
+      "triangles": 624,
+      "bytes": 37824,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "outfit_merchant",
+      "name": "Merchant Outfit",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/outfit_merchant.glb",
+      "thumbnail": "characters/thumbnails/outfit_merchant.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#f2e3c6",
+        "secondary": "#9c3d3d",
+        "trim": "#e7c35b"
+      },
+      "vertices": 614,
+      "triangles": 870,
+      "bytes": 46772,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "outfit_mage",
+      "name": "Mage Outfit",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/outfit_mage.glb",
+      "thumbnail": "characters/thumbnails/outfit_mage.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#4f3d8a",
+        "trim": "#e7c35b",
+        "secondary": "#2f2a55"
+      },
+      "vertices": 474,
+      "triangles": 684,
+      "bytes": 38904,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "outfit_ranger",
+      "name": "Ranger Outfit",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/outfit_ranger.glb",
+      "thumbnail": "characters/thumbnails/outfit_ranger.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#3f6b3a",
+        "leather": "#5c4430",
+        "secondary": "#2f4a2a"
+      },
+      "vertices": 572,
+      "triangles": 792,
+      "bytes": 44976,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "apron_leather_work",
+      "name": "Work Apron",
+      "category": "clothing",
+      "slot": "apron",
+      "file": "characters/clothing/apron_leather_work.glb",
+      "thumbnail": "characters/thumbnails/apron_leather_work.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "leather": "#6b4a2e",
+        "trim": "#3a2e26"
+      },
+      "vertices": 80,
+      "triangles": 98,
+      "bytes": 15536,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "apron_cloth",
+      "name": "Cloth Apron",
+      "category": "clothing",
+      "slot": "apron",
+      "file": "characters/clothing/apron_cloth.glb",
+      "thumbnail": "characters/thumbnails/apron_cloth.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "cloth": "#f2e3c6",
+        "trim": "#c9a36a"
+      },
+      "vertices": 80,
+      "triangles": 98,
+      "bytes": 15504,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "armor_leather",
+      "name": "Leather Armor",
+      "category": "armor",
+      "slot": "chest_armor",
+      "file": "characters/armor/armor_leather.glb",
+      "thumbnail": "characters/thumbnails/armor_leather.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "leather": "#7a4e2c",
+        "trim": "#c9a36a"
+      },
+      "vertices": 236,
+      "triangles": 310,
+      "bytes": 23496,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "armor_iron",
+      "name": "Iron Armor",
+      "category": "armor",
+      "slot": "chest_armor",
+      "file": "characters/armor/armor_iron.glb",
+      "thumbnail": "characters/thumbnails/armor_iron.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "metal": "#9aa0a8",
+        "leather": "#5c4430"
+      },
+      "vertices": 195,
+      "triangles": 240,
+      "bytes": 21292,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "armor_knight",
+      "name": "Knight Armor",
+      "category": "armor",
+      "slot": "chest_armor",
+      "file": "characters/armor/armor_knight.glb",
+      "thumbnail": "characters/thumbnails/armor_knight.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "metal": "#c8ccd2",
+        "primary": "#3e5c8a",
+        "trim": "#e7c35b"
+      },
+      "vertices": 295,
+      "triangles": 388,
+      "bytes": 29216,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "armor_mage",
+      "name": "Mage Armor",
+      "category": "armor",
+      "slot": "chest_armor",
+      "file": "characters/armor/armor_mage.glb",
+      "thumbnail": "characters/thumbnails/armor_mage.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "primary": "#4f3d8a",
+        "metal": "#d6d9de",
+        "gem": "#5fb3d6"
+      },
+      "vertices": 245,
+      "triangles": 328,
+      "bytes": 25048,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "shoulder_guards_iron",
+      "name": "Shoulder Guards",
+      "category": "armor",
+      "slot": "shoulders",
+      "file": "characters/armor/shoulder_guards_iron.glb",
+      "thumbnail": "characters/thumbnails/shoulder_guards_iron.svg",
+      "method": "rigid_multi_bone",
+      "source": "generated",
+      "channels": {
+        "metal": "#9aa0a8",
+        "leather": "#5c4430"
+      },
+      "vertices": 144,
+      "triangles": 224,
+      "bytes": 18584,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "chest_plate",
+      "name": "Chest Plate",
+      "category": "armor",
+      "slot": "chest_armor",
+      "file": "characters/armor/chest_plate.glb",
+      "thumbnail": "characters/thumbnails/chest_plate.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "metal": "#c8ccd2"
+      },
+      "vertices": 62,
+      "triangles": 72,
+      "bytes": 12996,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "gloves_leather",
+      "name": "Gloves",
+      "category": "armor",
+      "slot": "hands",
+      "file": "characters/armor/gloves_leather.glb",
+      "thumbnail": "characters/thumbnails/gloves_leather.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "leather": "#6b4a2e"
+      },
+      "vertices": 194,
+      "triangles": 314,
+      "bytes": 20800,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "leg_armor_iron",
+      "name": "Leg Armor",
+      "category": "armor",
+      "slot": "legs",
+      "file": "characters/armor/leg_armor_iron.glb",
+      "thumbnail": "characters/thumbnails/leg_armor_iron.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "metal": "#9aa0a8"
+      },
+      "vertices": 66,
+      "triangles": 74,
+      "bytes": 13208,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "boots_leather",
+      "name": "Leather Boots",
+      "category": "footwear",
+      "slot": "feet",
+      "file": "characters/footwear/boots_leather.glb",
+      "thumbnail": "characters/thumbnails/boots_leather.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "leather": "#6b4a2e"
+      },
+      "vertices": 134,
+      "triangles": 176,
+      "bytes": 17088,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "boots_heavy",
+      "name": "Heavy Boots",
+      "category": "footwear",
+      "slot": "feet",
+      "file": "characters/footwear/boots_heavy.glb",
+      "thumbnail": "characters/thumbnails/boots_heavy.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "dark": "#3a2e26",
+        "trim": "#8a6f5a"
+      },
+      "vertices": 206,
+      "triangles": 262,
+      "bytes": 21952,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "sandals",
+      "name": "Sandals",
+      "category": "footwear",
+      "slot": "feet",
+      "file": "characters/footwear/sandals.glb",
+      "thumbnail": "characters/thumbnails/sandals.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "leather": "#a2733f"
+      },
+      "vertices": 132,
+      "triangles": 124,
+      "bytes": 17364,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "shoes_mage",
+      "name": "Mage Shoes",
+      "category": "footwear",
+      "slot": "feet",
+      "file": "characters/footwear/shoes_mage.glb",
+      "thumbnail": "characters/thumbnails/shoes_mage.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#4f3d8a",
+        "trim": "#e7c35b"
+      },
+      "vertices": 132,
+      "triangles": 168,
+      "bytes": 18524,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "boots_knight",
+      "name": "Knight Boots",
+      "category": "footwear",
+      "slot": "feet",
+      "file": "characters/footwear/boots_knight.glb",
+      "thumbnail": "characters/thumbnails/boots_knight.svg",
+      "method": "shell_copy_weights",
+      "source": "generated",
+      "channels": {
+        "metal": "#c8ccd2",
+        "dark": "#3a3d44"
+      },
+      "vertices": 252,
+      "triangles": 326,
+      "bytes": 24540,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "backpack",
+      "name": "Backpack",
+      "category": "accessory",
+      "slot": "back",
+      "file": "characters/accessories/backpack.glb",
+      "thumbnail": "characters/thumbnails/backpack.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "leather": "#7a4e2c",
+        "trim": "#c9a36a"
+      },
+      "vertices": 30,
+      "triangles": 48,
+      "bytes": 12780,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "belt_leather",
+      "name": "Belt",
+      "category": "accessory",
+      "slot": "waist",
+      "file": "characters/accessories/belt_leather.glb",
+      "thumbnail": "characters/thumbnails/belt_leather.svg",
+      "method": "weight_transfer",
+      "source": "generated",
+      "channels": {
+        "leather": "#5c4430",
+        "metal": "#d9b45a"
+      },
+      "vertices": 32,
+      "triangles": 36,
+      "bytes": 12212,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "pouch",
+      "name": "Pouch",
+      "category": "accessory",
+      "slot": "waist_side",
+      "file": "characters/accessories/pouch.glb",
+      "thumbnail": "characters/thumbnails/pouch.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "leather": "#8a5a33",
+        "trim": "#d9b45a"
+      },
+      "vertices": 24,
+      "triangles": 36,
+      "bytes": 11784,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "necklace_beads",
+      "name": "Necklace",
+      "category": "accessory",
+      "slot": "neck",
+      "file": "characters/accessories/necklace_beads.glb",
+      "thumbnail": "characters/thumbnails/necklace_beads.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "trim": "#c9a36a",
+        "gem": "#5fb3d6"
+      },
+      "vertices": 72,
+      "triangles": 132,
+      "bytes": 14700,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "earrings_gold",
+      "name": "Earrings",
+      "category": "accessory",
+      "slot": "ears",
+      "file": "characters/accessories/earrings_gold.glb",
+      "thumbnail": "characters/thumbnails/earrings_gold.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "metal": "#e7c35b",
+        "gem": "#c23b3b"
+      },
+      "vertices": 88,
+      "triangles": 156,
+      "bytes": 17068,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "scarf_red",
+      "name": "Scarf",
+      "category": "accessory",
+      "slot": "neck",
+      "file": "characters/accessories/scarf_red.glb",
+      "thumbnail": "characters/thumbnails/scarf_red.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#b8392f"
+      },
+      "vertices": 68,
+      "triangles": 126,
+      "bytes": 14228,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "cape_hero",
+      "name": "Hero Cape",
+      "category": "accessory",
+      "slot": "back",
+      "file": "characters/accessories/cape_hero.glb",
+      "thumbnail": "characters/thumbnails/cape_hero.svg",
+      "method": "hybrid",
+      "source": "generated",
+      "channels": {
+        "primary": "#b8392f",
+        "metal": "#e7c35b"
+      },
+      "vertices": 90,
+      "triangles": 136,
+      "bytes": 16244,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "medallion_guild",
+      "name": "Guild Medallion",
+      "category": "accessory",
+      "slot": "neck",
+      "file": "characters/accessories/medallion_guild.glb",
+      "thumbnail": "characters/thumbnails/medallion_guild.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "metal": "#e7c35b",
+        "gem": "#3f5f8f"
+      },
+      "vertices": 94,
+      "triangles": 172,
+      "bytes": 16692,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "mantle_fur",
+      "name": "Fur Mantle",
+      "category": "accessory",
+      "slot": "shoulders",
+      "file": "characters/accessories/mantle_fur.glb",
+      "thumbnail": "characters/thumbnails/mantle_fur.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "primary": "#c9b28a"
+      },
+      "vertices": 70,
+      "triangles": 140,
+      "bytes": 13784,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "ornament_star_pin",
+      "name": "Star Hairpin",
+      "category": "accessory",
+      "slot": "hair_ornament",
+      "file": "characters/accessories/ornament_star_pin.glb",
+      "thumbnail": "characters/thumbnails/ornament_star_pin.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "metal": "#e7c35b",
+        "gem": "#fff2a0"
+      },
+      "vertices": 70,
+      "triangles": 110,
+      "bytes": 14496,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "ornament_crystal_charm",
+      "name": "Crystal Charm",
+      "category": "accessory",
+      "slot": "waist_side",
+      "file": "characters/accessories/ornament_crystal_charm.glb",
+      "thumbnail": "characters/thumbnails/ornament_crystal_charm.svg",
+      "method": "rigid_bone",
+      "source": "generated",
+      "channels": {
+        "gem": "#b07ce0",
+        "metal": "#d6d9de"
+      },
+      "vertices": 24,
+      "triangles": 32,
+      "bytes": 11772,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_messy_brown",
+      "name": "Messy Brown Hair (kit)",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_messy_brown.glb",
+      "thumbnail": "characters/thumbnails/hair_messy_brown.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/hair_messy_brown.glb",
+      "channels": {
+        "primary": "#92776b"
+      },
+      "vertices": 84,
+      "triangles": 160,
+      "bytes": 14544,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_short_black",
+      "name": "Short Black Hair (kit)",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_short_black.glb",
+      "thumbnail": "characters/thumbnails/hair_short_black.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/hair_short_black.glb",
+      "channels": {
+        "primary": "#6e6d72"
+      },
+      "vertices": 42,
+      "triangles": 80,
+      "bytes": 12068,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hat_farmer_straw",
+      "name": "Straw Farmer Hat (kit)",
+      "category": "headwear",
+      "slot": "headwear",
+      "file": "characters/headwear/hat_farmer_straw.glb",
+      "thumbnail": "characters/thumbnails/hat_farmer_straw.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/hat_farmer_straw.glb",
+      "channels": {
+        "primary": "#eee5cd",
+        "secondary": "#e5cd8b"
+      },
+      "vertices": 28,
+      "triangles": 48,
+      "bytes": 12104,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hat_baker_cream",
+      "name": "Baker Cap (kit)",
+      "category": "headwear",
+      "slot": "headwear",
+      "file": "characters/headwear/hat_baker_cream.glb",
+      "thumbnail": "characters/thumbnails/hat_baker_cream.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/hat_baker_cream.glb",
+      "channels": {
+        "primary": "#eee5cd"
+      },
+      "vertices": 42,
+      "triangles": 80,
+      "bytes": 12024,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "tunic_forest",
+      "name": "Forest Tunic (kit)",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/tunic_forest.glb",
+      "thumbnail": "characters/thumbnails/tunic_forest.svg",
+      "method": "weight_transfer",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/tunic_forest.glb",
+      "channels": {
+        "primary": "#a0bd99",
+        "secondary": "#eee5cd"
+      },
+      "vertices": 26,
+      "triangles": 44,
+      "bytes": 11900,
+      "qc": "NEEDS_REVIEW",
+      "readyForPlayer": false
+    },
+    {
+      "id": "apron_baker",
+      "name": "Baker Apron (kit)",
+      "category": "clothing",
+      "slot": "apron",
+      "file": "characters/clothing/apron_baker.glb",
+      "thumbnail": "characters/thumbnails/apron_baker.svg",
+      "method": "weight_transfer",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/apron_baker.glb",
+      "channels": {
+        "primary": "#eee5cd",
+        "secondary": "#aa8d77"
+      },
+      "vertices": 16,
+      "triangles": 24,
+      "bytes": 11292,
+      "qc": "NEEDS_REVIEW",
+      "readyForPlayer": false
+    },
+    {
+      "id": "apron_blacksmith",
+      "name": "Blacksmith Apron (kit)",
+      "category": "clothing",
+      "slot": "apron",
+      "file": "characters/clothing/apron_blacksmith.glb",
+      "thumbnail": "characters/thumbnails/apron_blacksmith.svg",
+      "method": "weight_transfer",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/apron_blacksmith.glb",
+      "channels": {
+        "primary": "#aa8d77",
+        "secondary": "#aab4ba"
+      },
+      "vertices": 16,
+      "triangles": 24,
+      "bytes": 11308,
+      "qc": "NEEDS_REVIEW",
+      "readyForPlayer": false
+    },
+    {
+      "id": "belt_pouch",
+      "name": "Belt & Pouch (kit)",
+      "category": "accessory",
+      "slot": "waist",
+      "file": "characters/accessories/belt_pouch.glb",
+      "thumbnail": "characters/thumbnails/belt_pouch.svg",
+      "method": "weight_transfer",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/belt_pouch.glb",
+      "channels": {
+        "primary": "#aa8d77",
+        "secondary": "#e5cd8b"
+      },
+      "vertices": 48,
+      "triangles": 88,
+      "bytes": 13280,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "cape_traveler",
+      "name": "Traveler Cape (kit)",
+      "category": "accessory",
+      "slot": "back",
+      "file": "characters/accessories/cape_traveler.glb",
+      "thumbnail": "characters/thumbnails/cape_traveler.svg",
+      "method": "hybrid",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/cape_traveler.glb",
+      "channels": {
+        "primary": "#c5897f"
+      },
+      "vertices": 5,
+      "triangles": 4,
+      "bytes": 9788,
+      "qc": "NEEDS_REVIEW",
+      "readyForPlayer": false
+    },
+    {
+      "id": "shoulder_guard_pair",
+      "name": "Shoulder Guards (kit)",
+      "category": "armor",
+      "slot": "shoulders",
+      "file": "characters/armor/shoulder_guard_pair.glb",
+      "thumbnail": "characters/thumbnails/shoulder_guard_pair.svg",
+      "method": "rigid_multi_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/shoulder_guard_pair.glb",
+      "channels": {
+        "primary": "#aab4ba"
+      },
+      "vertices": 84,
+      "triangles": 160,
+      "bytes": 14612,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "boots_leather_pair",
+      "name": "Leather Boots (kit)",
+      "category": "footwear",
+      "slot": "feet",
+      "file": "characters/footwear/boots_leather_pair.glb",
+      "thumbnail": "characters/thumbnails/boots_leather_pair.svg",
+      "method": "weight_transfer",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/boots_leather_pair.glb",
+      "channels": {
+        "primary": "#aa8d77",
+        "secondary": "#777c82"
+      },
+      "vertices": 32,
+      "triangles": 48,
+      "bytes": 12312,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "guild_medallion",
+      "name": "Guild Medallion (kit)",
+      "category": "accessory",
+      "slot": "neck",
+      "file": "characters/accessories/guild_medallion.glb",
+      "thumbnail": "characters/thumbnails/guild_medallion.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/kit_v2/wt_work/assets/glb/guild_medallion.glb",
+      "channels": {
+        "primary": "#e5cd8b",
+        "secondary": "#90a9c2"
+      },
+      "vertices": 28,
+      "triangles": 48,
+      "bytes": 12096,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_long_braid",
+      "name": "Long Braid (expansion)",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_long_braid.glb",
+      "thumbnail": "characters/thumbnails/hair_long_braid.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/hair_long_braid.glb",
+      "channels": {
+        "primary": "#9f806b",
+        "secondary": "#ac8b73",
+        "trim": "#e3cb8b"
+      },
+      "vertices": 372,
+      "triangles": 720,
+      "bytes": 33540,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_twin_buns",
+      "name": "Twin Buns (expansion)",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_twin_buns.glb",
+      "thumbnail": "characters/thumbnails/hair_twin_buns.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/hair_twin_buns.glb",
+      "channels": {
+        "primary": "#e3c18b",
+        "secondary": "#eacb96"
+      },
+      "vertices": 330,
+      "triangles": 640,
+      "bytes": 30132,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "hair_mage_swept",
+      "name": "Mage Swept Hair (expansion)",
+      "category": "hair",
+      "slot": "hair",
+      "file": "characters/hair/hair_mage_swept.glb",
+      "thumbnail": "characters/thumbnails/hair_mage_swept.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/hair_mage_swept.glb",
+      "channels": {
+        "primary": "#6b85a7",
+        "secondary": "#7895b7"
+      },
+      "vertices": 288,
+      "triangles": 560,
+      "bytes": 27648,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "outfit_ranger_vest",
+      "name": "Ranger Vest (expansion)",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/outfit_ranger_vest.glb",
+      "thumbnail": "characters/thumbnails/outfit_ranger_vest.svg",
+      "method": "weight_transfer",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/outfit_ranger_vest.glb",
+      "channels": {
+        "primary": "#87ac9b",
+        "secondary": "#dac191"
+      },
+      "vertices": 68,
+      "triangles": 116,
+      "bytes": 14404,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "outfit_mage_robe",
+      "name": "Enchanter Robe (expansion)",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/outfit_mage_robe.glb",
+      "thumbnail": "characters/thumbnails/outfit_mage_robe.svg",
+      "method": "weight_transfer",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/outfit_mage_robe.glb",
+      "channels": {
+        "primary": "#978fb6",
+        "secondary": "#ece1c1",
+        "trim": "#ad9fc8"
+      },
+      "vertices": 118,
+      "triangles": 212,
+      "bytes": 18276,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "outfit_knight_surcoat",
+      "name": "Knight Surcoat (expansion)",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/outfit_knight_surcoat.glb",
+      "thumbnail": "characters/thumbnails/outfit_knight_surcoat.svg",
+      "method": "weight_transfer",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/outfit_knight_surcoat.glb",
+      "channels": {
+        "primary": "#c27c7c",
+        "secondary": "#93bed3",
+        "trim": "#d2d4d6",
+        "leather": "#e4d19f"
+      },
+      "vertices": 110,
+      "triangles": 196,
+      "bytes": 18728,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "outfit_traveler_coat",
+      "name": "Traveler Coat (expansion)",
+      "category": "clothing",
+      "slot": "torso",
+      "file": "characters/clothing/outfit_traveler_coat.glb",
+      "thumbnail": "characters/thumbnails/outfit_traveler_coat.svg",
+      "method": "weight_transfer",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/outfit_traveler_coat.glb",
+      "channels": {
+        "primary": "#c2af91",
+        "secondary": "#a08e7a"
+      },
+      "vertices": 68,
+      "triangles": 116,
+      "bytes": 14444,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "accessory_circlet",
+      "name": "Moonstone Circlet (expansion)",
+      "category": "headwear",
+      "slot": "headwear",
+      "file": "characters/headwear/accessory_circlet.glb",
+      "thumbnail": "characters/thumbnails/accessory_circlet.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/accessory_circlet.glb",
+      "channels": {
+        "primary": "#eddba0",
+        "secondary": "#94c3cb",
+        "trim": "#e5d292"
+      },
+      "vertices": 102,
+      "triangles": 192,
+      "bytes": 17392,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "accessory_crystal_pendant",
+      "name": "Crystal Pendant (expansion)",
+      "category": "accessory",
+      "slot": "neck",
+      "file": "characters/accessories/accessory_crystal_pendant.glb",
+      "thumbnail": "characters/thumbnails/accessory_crystal_pendant.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/accessory_crystal_pendant.glb",
+      "channels": {
+        "primary": "#90d2d1",
+        "secondary": "#def4ee",
+        "trim": "#ab927a"
+      },
+      "vertices": 98,
+      "triangles": 184,
+      "bytes": 17200,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "accessory_sapphire_earrings",
+      "name": "Sapphire Earrings (expansion)",
+      "category": "accessory",
+      "slot": "ears",
+      "file": "characters/accessories/accessory_sapphire_earrings.glb",
+      "thumbnail": "characters/thumbnails/accessory_sapphire_earrings.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/accessory_sapphire_earrings.glb",
+      "channels": {
+        "primary": "#adced8",
+        "secondary": "#eddba0"
+      },
+      "vertices": 112,
+      "triangles": 208,
+      "bytes": 17160,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "accessory_scarf",
+      "name": "Crimson Scarf (expansion)",
+      "category": "accessory",
+      "slot": "neck",
+      "file": "characters/accessories/accessory_scarf.glb",
+      "thumbnail": "characters/thumbnails/accessory_scarf.svg",
+      "method": "weight_transfer",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/accessory_scarf.glb",
+      "channels": {
+        "primary": "#c3877d",
+        "secondary": "#ece1c1",
+        "trim": "#dac191"
+      },
+      "vertices": 92,
+      "triangles": 172,
+      "bytes": 16808,
+      "qc": "PASS",
+      "readyForPlayer": true
+    },
+    {
+      "id": "accessory_bronze_pauldron_pair",
+      "name": "Bronze Pauldrons (expansion)",
+      "category": "armor",
+      "slot": "shoulders",
+      "file": "characters/armor/accessory_bronze_pauldron_pair.glb",
+      "thumbnail": "characters/thumbnails/accessory_bronze_pauldron_pair.svg",
+      "method": "rigid_multi_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/accessory_bronze_pauldron_pair.glb",
+      "channels": {
+        "primary": "#cbab7d",
+        "secondary": "#e2cb98"
+      },
+      "vertices": 168,
+      "triangles": 320,
+      "bytes": 20524,
+      "qc": "WARNING",
+      "readyForPlayer": true
+    },
+    {
+      "id": "accessory_adventurer_pack",
+      "name": "Adventurer Pack (expansion)",
+      "category": "accessory",
+      "slot": "back",
+      "file": "characters/accessories/accessory_adventurer_pack.glb",
+      "thumbnail": "characters/thumbnails/accessory_adventurer_pack.svg",
+      "method": "rigid_bone",
+      "source": "provided_blockout",
+      "sourceFile": "incoming/expansion_v1/WanderTales_Expansion_v1/assets/glb/accessory_adventurer_pack.glb",
+      "channels": {
+        "primary": "#dac191",
+        "secondary": "#aa8d75"
+      },
+      "vertices": 44,
+      "triangles": 72,
+      "bytes": 13036,
+      "qc": "PASS",
+      "readyForPlayer": true
+    }
+  ]
+}

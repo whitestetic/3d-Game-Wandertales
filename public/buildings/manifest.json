@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-06T13:28:44.353Z",
+  "buildings": [
+    {
+      "id": "guild",
+      "name": "Guild Headquarters",
+      "kind": "guild",
+      "w": 12,
+      "d": 10,
+      "file": "buildings/guild/guild.glb",
+      "parts": 22
+    },
+    {
+      "id": "tavern",
+      "name": "The Sleepy Griffin Tavern",
+      "kind": "tavern",
+      "w": 9,
+      "d": 8,
+      "file": "buildings/tavern/tavern.glb",
+      "parts": 17
+    },
+    {
+      "id": "bakery",
+      "name": "Hearthstone Bakery",
+      "kind": "bakery",
+      "w": 7,
+      "d": 7,
+      "file": "buildings/bakery/bakery.glb",
+      "parts": 16
+    },
+    {
+      "id": "blacksmith",
+      "name": "Emberforge Smithy",
+      "kind": "blacksmith",
+      "w": 8,
+      "d": 7,
+      "file": "buildings/blacksmith/blacksmith.glb",
+      "parts": 20
+    },
+    {
+      "id": "market",
+      "name": "Market Row",
+      "kind": "market",
+      "w": 10,
+      "d": 8,
+      "file": "buildings/market/market.glb",
+      "parts": 48
+    },
+    {
+      "id": "farm",
+      "name": "Goldenfield Farm",
+      "kind": "farm",
+      "w": 18,
+      "d": 12,
+      "file": "buildings/farm/farm.glb",
+      "parts": 151
+    },
+    {
+      "id": "construction",
+      "name": "Builders' Yard",
+      "kind": "construction",
+      "w": 8,
+      "d": 8,
+      "file": "buildings/construction/construction.glb",
+      "parts": 25
+    },
+    {
+      "id": "dock",
+      "name": "Fishing Dock",
+      "kind": "dock",
+      "w": 6,
+      "d": 4,
+      "file": "buildings/dock/dock.glb",
+      "parts": 15
+    },
+    {
+      "id": "square",
+      "name": "Town Square",
+      "kind": "square",
+      "w": 4,
+      "d": 4,
+      "file": "buildings/square/square.glb",
+      "parts": 5
+    },
+    {
+      "id": "lumber",
+      "name": "Lumber Camp",
+      "kind": "lumber",
+      "w": 8,
+      "d": 8,
+      "file": "buildings/lumber/lumber.glb",
+      "parts": 7
+    },
+    {
+      "id": "quarry",
+      "name": "Stone Quarry",
+      "kind": "quarry",
+      "w": 8,
+      "d": 8,
+      "file": "buildings/quarry/quarry.glb",
+      "parts": 10
+    },
+    {
+      "id": "mine",
+      "name": "Iron Mine",
+      "kind": "mine",
+      "w": 8,
+      "d": 8,
+      "file": "buildings/mine/mine.glb",
+      "parts": 10
+    },
+    {
+      "id": "workshop",
+      "name": "Workshop",
+      "kind": "workshop",
+      "w": 8,
+      "d": 8,
+      "file": "buildings/workshop/workshop.glb",
+      "parts": 12
+    },
+    {
+      "id": "alchemist",
+      "name": "Alchemist",
+      "kind": "alchemist",
+      "w": 8,
+      "d": 8,
+      "file": "buildings/alchemist/alchemist.glb",
+      "parts": 13
+    },
+    {
+      "id": "house",
+      "name": "Cottage",
+      "kind": "house",
+      "w": 6,
+      "d": 6,
+      "file": "buildings/house/house.glb",
+      "parts": 10
+    }
+  ]
+}

@@ -1,0 +1,2848 @@
+{
+  "generatedAt": "2026-11-06T11:43:23.228Z",
+  "master": {
+    "file": "chibi_base_mesh_rigged.glb",
+    "bytes": 115836,
+    "generator": "glTF-Transform v4.5.1",
+    "hierarchy": [
+      "Sketchfab_model",
+      "  8910ca77513146e59a2f22f4c123919f.fbx",
+      "    RootNode",
+      "      BaseMesh_Chibi",
+      "        Object_4",
+      "          _rootJoint",
+      "            Hips_01",
+      "              Spine_02",
+      "                Spine1_03",
+      "                  Spine2_04",
+      "                    Neck_05",
+      "                      Head_06",
+      "                        HeadTop_End_07",
+      "                    RightShoulder_08",
+      "                      RightArm_09",
+      "                        RightForeArm_010",
+      "                          RightHand_011",
+      "                            RightHandIndex1_012",
+      "                              RightHandIndex2_013",
+      "                            RightHandIndex3_014",
+      "                              RightHandIndex2_015",
+      "                    Left_Shoulder_016",
+      "                      Left_Arm_017",
+      "                        Left_ForeArm_018",
+      "                          Left_Hand_019",
+      "                            Left_HandIndex1_020",
+      "                              Left_HandIndex2_021",
+      "                            Left_HandIndex3_022",
+      "                              Left_HandIndex2_023",
+      "              RightUpLeg_024",
+      "                RightLeg_025",
+      "                  RightFoot_026",
+      "                    RightToeBase_027",
+      "              Left_UpLeg_00",
+      "                Left_Leg_028",
+      "                  Left_Foot_029",
+      "                    Left_ToeBase_030",
+      "          Object_7 [mesh:SM_Chibi_Body_BaseMesh_Chibi_M_0 skinned]",
+      "          Object_9 [mesh:SM_Chibi_Eye_lambert1_0 skinned]",
+      "          Object_6",
+      "          Object_8"
+    ],
+    "scenes": 1,
+    "nodes": 41,
+    "meshes": [
+      {
+        "name": "SM_Chibi_Body_BaseMesh_Chibi_M_0",
+        "primitives": [
+          {
+            "attributes": [
+              "JOINTS_0",
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0",
+              "WEIGHTS_0"
+            ],
+            "vertices": 1233,
+            "material": "BaseMesh_Chibi_M",
+            "morphTargets": 0
+          }
+        ]
+      },
+      {
+        "name": "SM_Chibi_Eye_lambert1_0",
+        "primitives": [
+          {
+            "attributes": [
+              "JOINTS_0",
+              "NORMAL",
+              "POSITION",
+              "TEXCOORD_0",
+              "WEIGHTS_0"
+            ],
+            "vertices": 110,
+            "material": "lambert1",
+            "morphTargets": 0
+          }
+        ]
+      }
+    ],
+    "materials": [
+      {
+        "name": "BaseMesh_Chibi_M",
+        "baseColor": [
+          1,
+          0.398,
+          0.9665,
+          1
+        ],
+        "texture": false,
+        "metallic": 0,
+        "roughness": 0.6262876229718033,
+        "alphaMode": "OPAQUE"
+      },
+      {
+        "name": "lambert1",
+        "baseColor": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "texture": false,
+        "metallic": 0,
+        "roughness": 0,
+        "alphaMode": "OPAQUE"
+      }
+    ],
+    "textures": [],
+    "animations": [],
+    "skins": 1,
+    "jointCount": 32,
+    "joints": [
+      {
+        "idx": 0,
+        "name": "_rootJoint",
+        "parent": "Object_4",
+        "worldPos": [
+          0,
+          0,
+          0
+        ],
+        "children": [
+          "Hips_01"
+        ]
+      },
+      {
+        "idx": 1,
+        "name": "Hips_01",
+        "parent": "_rootJoint",
+        "worldPos": [
+          0,
+          0.0774,
+          0.0021
+        ],
+        "children": [
+          "Spine_02",
+          "RightUpLeg_024",
+          "Left_UpLeg_00"
+        ]
+      },
+      {
+        "idx": 2,
+        "name": "Spine_02",
+        "parent": "Hips_01",
+        "worldPos": [
+          0,
+          0.0999,
+          0.0012
+        ],
+        "children": [
+          "Spine1_03"
+        ]
+      },
+      {
+        "idx": 3,
+        "name": "Spine1_03",
+        "parent": "Spine_02",
+        "worldPos": [
+          0,
+          0.1262,
+          0.0001
+        ],
+        "children": [
+          "Spine2_04"
+        ]
+      },
+      {
+        "idx": 4,
+        "name": "Spine2_04",
+        "parent": "Spine1_03",
+        "worldPos": [
+          0,
+          0.1562,
+          -0.0011
+        ],
+        "children": [
+          "Neck_05",
+          "RightShoulder_08",
+          "Left_Shoulder_016"
+        ]
+      },
+      {
+        "idx": 5,
+        "name": "Neck_05",
+        "parent": "Spine2_04",
+        "worldPos": [
+          0,
+          0.1945,
+          -0.0025
+        ],
+        "children": [
+          "Head_06"
+        ]
+      },
+      {
+        "idx": 6,
+        "name": "Head_06",
+        "parent": "Neck_05",
+        "worldPos": [
+          0,
+          0.2101,
+          0.0003
+        ],
+        "children": [
+          "HeadTop_End_07"
+        ]
+      },
+      {
+        "idx": 7,
+        "name": "HeadTop_End_07",
+        "parent": "Head_06",
+        "worldPos": [
+          0,
+          0.4693,
+          0.0134
+        ],
+        "children": []
+      },
+      {
+        "idx": 8,
+        "name": "RightShoulder_08",
+        "parent": "Spine2_04",
+        "worldPos": [
+          -0.0317,
+          0.1843,
+          -0.0026
+        ],
+        "children": [
+          "RightArm_09"
+        ]
+      },
+      {
+        "idx": 9,
+        "name": "RightArm_09",
+        "parent": "RightShoulder_08",
+        "worldPos": [
+          -0.0616,
+          0.1758,
+          -0.002
+        ],
+        "children": [
+          "RightForeArm_010"
+        ]
+      },
+      {
+        "idx": 10,
+        "name": "RightForeArm_010",
+        "parent": "RightArm_09",
+        "worldPos": [
+          -0.1054,
+          0.1757,
+          -0.0045
+        ],
+        "children": [
+          "RightHand_011"
+        ]
+      },
+      {
+        "idx": 11,
+        "name": "RightHand_011",
+        "parent": "RightForeArm_010",
+        "worldPos": [
+          -0.1352,
+          0.1758,
+          -0.002
+        ],
+        "children": [
+          "RightHandIndex1_012",
+          "RightHandIndex3_014"
+        ]
+      },
+      {
+        "idx": 12,
+        "name": "RightHandIndex1_012",
+        "parent": "RightHand_011",
+        "worldPos": [
+          -0.1735,
+          0.1758,
+          -0.002
+        ],
+        "children": [
+          "RightHandIndex2_013"
+        ]
+      },
+      {
+        "idx": 13,
+        "name": "RightHandIndex2_013",
+        "parent": "RightHandIndex1_012",
+        "worldPos": [
+          -0.1959,
+          0.1758,
+          -0.002
+        ],
+        "children": []
+      },
+      {
+        "idx": 14,
+        "name": "RightHandIndex3_014",
+        "parent": "RightHand_011",
+        "worldPos": [
+          -0.1644,
+          0.1758,
+          0.0217
+        ],
+        "children": [
+          "RightHandIndex2_015"
+        ]
+      },
+      {
+        "idx": 15,
+        "name": "RightHandIndex2_015",
+        "parent": "RightHandIndex3_014",
+        "worldPos": [
+          -0.1714,
+          0.1766,
+          0.0372
+        ],
+        "children": []
+      },
+      {
+        "idx": 16,
+        "name": "Left_Shoulder_016",
+        "parent": "Spine2_04",
+        "worldPos": [
+          0.0317,
+          0.1843,
+          -0.0026
+        ],
+        "children": [
+          "Left_Arm_017"
+        ]
+      },
+      {
+        "idx": 17,
+        "name": "Left_Arm_017",
+        "parent": "Left_Shoulder_016",
+        "worldPos": [
+          0.0616,
+          0.1758,
+          -0.002
+        ],
+        "children": [
+          "Left_ForeArm_018"
+        ]
+      },
+      {
+        "idx": 18,
+        "name": "Left_ForeArm_018",
+        "parent": "Left_Arm_017",
+        "worldPos": [
+          0.1054,
+          0.1757,
+          -0.0045
+        ],
+        "children": [
+          "Left_Hand_019"
+        ]
+      },
+      {
+        "idx": 19,
+        "name": "Left_Hand_019",
+        "parent": "Left_ForeArm_018",
+        "worldPos": [
+          0.1353,
+          0.1758,
+          -0.002
+        ],
+        "children": [
+          "Left_HandIndex1_020",
+          "Left_HandIndex3_022"
+        ]
+      },
+      {
+        "idx": 20,
+        "name": "Left_HandIndex1_020",
+        "parent": "Left_Hand_019",
+        "worldPos": [
+          0.1736,
+          0.1758,
+          -0.002
+        ],
+        "children": [
+          "Left_HandIndex2_021"
+        ]
+      },
+      {
+        "idx": 21,
+        "name": "Left_HandIndex2_021",
+        "parent": "Left_HandIndex1_020",
+        "worldPos": [
+          0.196,
+          0.1758,
+          -0.002
+        ],
+        "children": []
+      },
+      {
+        "idx": 22,
+        "name": "Left_HandIndex3_022",
+        "parent": "Left_Hand_019",
+        "worldPos": [
+          0.1644,
+          0.1758,
+          0.0217
+        ],
+        "children": [
+          "Left_HandIndex2_023"
+        ]
+      },
+      {
+        "idx": 23,
+        "name": "Left_HandIndex2_023",
+        "parent": "Left_HandIndex3_022",
+        "worldPos": [
+          0.1714,
+          0.1766,
+          0.0372
+        ],
+        "children": []
+      },
+      {
+        "idx": 24,
+        "name": "RightUpLeg_024",
+        "parent": "Hips_01",
+        "worldPos": [
+          -0.0451,
+          0.0607,
+          -0.0016
+        ],
+        "children": [
+          "RightLeg_025"
+        ]
+      },
+      {
+        "idx": 25,
+        "name": "RightLeg_025",
+        "parent": "RightUpLeg_024",
+        "worldPos": [
+          -0.0451,
+          0.0396,
+          -0.0008
+        ],
+        "children": [
+          "RightFoot_026"
+        ]
+      },
+      {
+        "idx": 26,
+        "name": "RightFoot_026",
+        "parent": "RightLeg_025",
+        "worldPos": [
+          -0.0451,
+          0.0196,
+          0
+        ],
+        "children": [
+          "RightToeBase_027"
+        ]
+      },
+      {
+        "idx": 27,
+        "name": "RightToeBase_027",
+        "parent": "RightFoot_026",
+        "worldPos": [
+          -0.0452,
+          0.0106,
+          0.033
+        ],
+        "children": []
+      },
+      {
+        "idx": 28,
+        "name": "Left_UpLeg_00",
+        "parent": "Hips_01",
+        "worldPos": [
+          0.0451,
+          0.0607,
+          -0.0016
+        ],
+        "children": [
+          "Left_Leg_028"
+        ]
+      },
+      {
+        "idx": 29,
+        "name": "Left_Leg_028",
+        "parent": "Left_UpLeg_00",
+        "worldPos": [
+          0.0451,
+          0.0396,
+          -0.0008
+        ],
+        "children": [
+          "Left_Foot_029"
+        ]
+      },
+      {
+        "idx": 30,
+        "name": "Left_Foot_029",
+        "parent": "Left_Leg_028",
+        "worldPos": [
+          0.0451,
+          0.0196,
+          0
+        ],
+        "children": [
+          "Left_ToeBase_030"
+        ]
+      },
+      {
+        "idx": 31,
+        "name": "Left_ToeBase_030",
+        "parent": "Left_Foot_029",
+        "worldPos": [
+          0.0452,
+          0.0106,
+          0.033
+        ],
+        "children": []
+      }
+    ],
+    "totalVertices": 1343,
+    "totalTriangles": 2234,
+    "bounds": {
+      "min": [
+        -0.2108,
+        0.0003,
+        -0.1314
+      ],
+      "max": [
+        0.2108,
+        0.4753,
+        0.1385
+      ],
+      "size": [
+        0.4216,
+        0.475,
+        0.27
+      ]
+    },
+    "weightIssues": [],
+    "dominantJointRegions": {
+      "Head_06": {
+        "vertices": 427,
+        "min": [
+          -0.1582,
+          0.2085,
+          -0.1314
+        ],
+        "max": [
+          0.1582,
+          0.4753,
+          0.1385
+        ],
+        "size": [
+          0.3164,
+          0.2668,
+          0.27
+        ]
+      },
+      "Left_Shoulder_016": {
+        "vertices": 30,
+        "min": [
+          0.0351,
+          0.1539,
+          -0.0434
+        ],
+        "max": [
+          0.0549,
+          0.1985,
+          0.0385
+        ],
+        "size": [
+          0.0199,
+          0.0446,
+          0.0819
+        ]
+      },
+      "Left_Arm_017": {
+        "vertices": 58,
+        "min": [
+          0.0604,
+          0.14,
+          -0.0338
+        ],
+        "max": [
+          0.0995,
+          0.1972,
+          0.0245
+        ],
+        "size": [
+          0.0391,
+          0.0572,
+          0.0583
+        ]
+      },
+      "RightShoulder_08": {
+        "vertices": 30,
+        "min": [
+          -0.0549,
+          0.1539,
+          -0.0434
+        ],
+        "max": [
+          -0.0351,
+          0.1985,
+          0.0385
+        ],
+        "size": [
+          0.0199,
+          0.0446,
+          0.0819
+        ]
+      },
+      "RightArm_09": {
+        "vertices": 58,
+        "min": [
+          -0.0995,
+          0.14,
+          -0.0338
+        ],
+        "max": [
+          -0.0604,
+          0.1972,
+          0.0245
+        ],
+        "size": [
+          0.0391,
+          0.0572,
+          0.0583
+        ]
+      },
+      "Neck_05": {
+        "vertices": 23,
+        "min": [
+          -0.0271,
+          0.1916,
+          0.0286
+        ],
+        "max": [
+          0.0271,
+          0.2068,
+          0.0522
+        ],
+        "size": [
+          0.0542,
+          0.0152,
+          0.0236
+        ]
+      },
+      "Spine2_04": {
+        "vertices": 95,
+        "min": [
+          -0.0432,
+          0.1547,
+          -0.0484
+        ],
+        "max": [
+          0.0432,
+          0.2076,
+          0.0624
+        ],
+        "size": [
+          0.0864,
+          0.0529,
+          0.1107
+        ]
+      },
+      "Spine1_03": {
+        "vertices": 36,
+        "min": [
+          -0.0743,
+          0.1226,
+          -0.0554
+        ],
+        "max": [
+          0.0743,
+          0.1414,
+          0.0757
+        ],
+        "size": [
+          0.1487,
+          0.0188,
+          0.1311
+        ]
+      },
+      "Hips_01": {
+        "vertices": 152,
+        "min": [
+          -0.0799,
+          0.0425,
+          -0.0619
+        ],
+        "max": [
+          0.0799,
+          0.1099,
+          0.0814
+        ],
+        "size": [
+          0.1597,
+          0.0674,
+          0.1433
+        ]
+      },
+      "Left_Foot_029": {
+        "vertices": 41,
+        "min": [
+          0.0187,
+          0.0003,
+          0.0002
+        ],
+        "max": [
+          0.0737,
+          0.0525,
+          0.0402
+        ],
+        "size": [
+          0.055,
+          0.0521,
+          0.0399
+        ]
+      },
+      "Left_UpLeg_00": {
+        "vertices": 9,
+        "min": [
+          0.0519,
+          0.0447,
+          -0.04
+        ],
+        "max": [
+          0.0768,
+          0.0588,
+          0.0284
+        ],
+        "size": [
+          0.0248,
+          0.0141,
+          0.0684
+        ]
+      },
+      "Left_Leg_028": {
+        "vertices": 50,
+        "min": [
+          0.0168,
+          0.0003,
+          -0.0371
+        ],
+        "max": [
+          0.074,
+          0.0409,
+          0.0168
+        ],
+        "size": [
+          0.0571,
+          0.0406,
+          0.0538
+        ]
+      },
+      "Left_ForeArm_018": {
+        "vertices": 20,
+        "min": [
+          0.1148,
+          0.1543,
+          -0.0297
+        ],
+        "max": [
+          0.134,
+          0.1956,
+          0.0228
+        ],
+        "size": [
+          0.0192,
+          0.0413,
+          0.0525
+        ]
+      },
+      "Left_Hand_019": {
+        "vertices": 22,
+        "min": [
+          0.1341,
+          0.1524,
+          -0.0349
+        ],
+        "max": [
+          0.1691,
+          0.1971,
+          0.0292
+        ],
+        "size": [
+          0.035,
+          0.0447,
+          0.064
+        ]
+      },
+      "Left_HandIndex1_020": {
+        "vertices": 51,
+        "min": [
+          0.1721,
+          0.1541,
+          -0.0349
+        ],
+        "max": [
+          0.2108,
+          0.1963,
+          0.0205
+        ],
+        "size": [
+          0.0387,
+          0.0422,
+          0.0554
+        ]
+      },
+      "Left_HandIndex3_022": {
+        "vertices": 24,
+        "min": [
+          0.1576,
+          0.1572,
+          0.0192
+        ],
+        "max": [
+          0.183,
+          0.1869,
+          0.0457
+        ],
+        "size": [
+          0.0255,
+          0.0297,
+          0.0265
+        ]
+      },
+      "RightFoot_026": {
+        "vertices": 41,
+        "min": [
+          -0.0737,
+          0.0003,
+          0.0002
+        ],
+        "max": [
+          -0.0187,
+          0.0525,
+          0.0402
+        ],
+        "size": [
+          0.055,
+          0.0521,
+          0.0399
+        ]
+      },
+      "RightUpLeg_024": {
+        "vertices": 9,
+        "min": [
+          -0.0768,
+          0.0447,
+          -0.04
+        ],
+        "max": [
+          -0.0519,
+          0.0588,
+          0.0284
+        ],
+        "size": [
+          0.0248,
+          0.0141,
+          0.0684
+        ]
+      },
+      "RightLeg_025": {
+        "vertices": 50,
+        "min": [
+          -0.074,
+          0.0003,
+          -0.0371
+        ],
+        "max": [
+          -0.0168,
+          0.0409,
+          0.0168
+        ],
+        "size": [
+          0.0571,
+          0.0406,
+          0.0538
+        ]
+      },
+      "RightForeArm_010": {
+        "vertices": 20,
+        "min": [
+          -0.134,
+          0.1543,
+          -0.0297
+        ],
+        "max": [
+          -0.1148,
+          0.1956,
+          0.0228
+        ],
+        "size": [
+          0.0192,
+          0.0413,
+          0.0525
+        ]
+      },
+      "RightHand_011": {
+        "vertices": 22,
+        "min": [
+          -0.1691,
+          0.1524,
+          -0.0349
+        ],
+        "max": [
+          -0.1341,
+          0.1971,
+          0.0292
+        ],
+        "size": [
+          0.035,
+          0.0447,
+          0.064
+        ]
+      },
+      "RightHandIndex1_012": {
+        "vertices": 51,
+        "min": [
+          -0.2108,
+          0.1541,
+          -0.0349
+        ],
+        "max": [
+          -0.1721,
+          0.1963,
+          0.0205
+        ],
+        "size": [
+          0.0387,
+          0.0422,
+          0.0554
+        ]
+      },
+      "RightHandIndex3_014": {
+        "vertices": 24,
+        "min": [
+          -0.183,
+          0.1572,
+          0.0192
+        ],
+        "max": [
+          -0.1576,
+          0.1869,
+          0.0457
+        ],
+        "size": [
+          0.0255,
+          0.0297,
+          0.0265
+        ]
+      }
+    }
+  },
+  "assets": [
+    {
+      "id": "apron_baker",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\apron_baker.glb",
+      "bytes": 2016,
+      "hierarchy": [
+        "world",
+        "  apron_baker_0 [mesh:apron_baker_0]",
+        "  apron_baker_1 [mesh:apron_baker_1]"
+      ],
+      "meshes": [
+        {
+          "name": "apron_baker_0",
+          "vertices": 8,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "cloth_cream"
+        },
+        {
+          "name": "apron_baker_1",
+          "vertices": 8,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "leather"
+        }
+      ],
+      "materials": [
+        {
+          "name": "cloth_cream",
+          "baseColor": [
+            0.8627,
+            0.7922,
+            0.6157,
+            1
+          ]
+        },
+        {
+          "name": "leather",
+          "baseColor": [
+            0.4118,
+            0.2706,
+            0.1882,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 16,
+      "bounds": {
+        "min": [
+          -0.045,
+          0.1715,
+          0.07
+        ],
+        "max": [
+          0.045,
+          0.287,
+          0.088
+        ],
+        "size": [
+          0.09,
+          0.1155,
+          0.018
+        ],
+        "center": [
+          0,
+          0.2292,
+          0.079
+        ]
+      }
+    },
+    {
+      "id": "apron_blacksmith",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\apron_blacksmith.glb",
+      "bytes": 2036,
+      "hierarchy": [
+        "world",
+        "  apron_blacksmith_0 [mesh:apron_blacksmith_0]",
+        "  apron_blacksmith_1 [mesh:apron_blacksmith_1]"
+      ],
+      "meshes": [
+        {
+          "name": "apron_blacksmith_0",
+          "vertices": 8,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "leather"
+        },
+        {
+          "name": "apron_blacksmith_1",
+          "vertices": 8,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "steel"
+        }
+      ],
+      "materials": [
+        {
+          "name": "leather",
+          "baseColor": [
+            0.4118,
+            0.2706,
+            0.1882,
+            1
+          ]
+        },
+        {
+          "name": "steel",
+          "baseColor": [
+            0.4118,
+            0.4667,
+            0.502,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 16,
+      "bounds": {
+        "min": [
+          -0.0475,
+          0.165,
+          0.069
+        ],
+        "max": [
+          0.0475,
+          0.296,
+          0.091
+        ],
+        "size": [
+          0.095,
+          0.131,
+          0.022
+        ],
+        "center": [
+          0,
+          0.2305,
+          0.08
+        ]
+      }
+    },
+    {
+      "id": "belt_pouch",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\belt_pouch.glb",
+      "bytes": 3776,
+      "hierarchy": [
+        "world",
+        "  belt_pouch_0 [mesh:belt_pouch_0]",
+        "  belt_pouch_1 [mesh:belt_pouch_1]",
+        "  belt_pouch_2 [mesh:belt_pouch_2]"
+      ],
+      "meshes": [
+        {
+          "name": "belt_pouch_0",
+          "vertices": 32,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "leather"
+        },
+        {
+          "name": "belt_pouch_1",
+          "vertices": 8,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "leather"
+        },
+        {
+          "name": "belt_pouch_2",
+          "vertices": 8,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "gold"
+        }
+      ],
+      "materials": [
+        {
+          "name": "leather",
+          "baseColor": [
+            0.4118,
+            0.2706,
+            0.1882,
+            1
+          ]
+        },
+        {
+          "name": "gold",
+          "baseColor": [
+            0.7882,
+            0.6196,
+            0.2627,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 48,
+      "bounds": {
+        "min": [
+          -0.078,
+          0.1,
+          -0.009
+        ],
+        "max": [
+          0.091,
+          0.256,
+          0.03
+        ],
+        "size": [
+          0.169,
+          0.156,
+          0.039
+        ],
+        "center": [
+          0.0065,
+          0.178,
+          0.0105
+        ]
+      }
+    },
+    {
+      "id": "boots_leather_pair",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\boots_leather_pair.glb",
+      "bytes": 3192,
+      "hierarchy": [
+        "world",
+        "  boots_leather_pair_0 [mesh:boots_leather_pair_0]",
+        "  boots_leather_pair_1 [mesh:boots_leather_pair_1]",
+        "  boots_leather_pair_2 [mesh:boots_leather_pair_2]",
+        "  boots_leather_pair_3 [mesh:boots_leather_pair_3]"
+      ],
+      "meshes": [
+        {
+          "name": "boots_leather_pair_0",
+          "vertices": 8,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "leather"
+        },
+        {
+          "name": "boots_leather_pair_1",
+          "vertices": 8,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "dark"
+        },
+        {
+          "name": "boots_leather_pair_2",
+          "vertices": 8,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "leather"
+        },
+        {
+          "name": "boots_leather_pair_3",
+          "vertices": 8,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "dark"
+        }
+      ],
+      "materials": [
+        {
+          "name": "leather",
+          "baseColor": [
+            0.4118,
+            0.2706,
+            0.1882,
+            1
+          ]
+        },
+        {
+          "name": "dark",
+          "baseColor": [
+            0.1882,
+            0.2039,
+            0.2275,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 32,
+      "bounds": {
+        "min": [
+          -0.0795,
+          0.0105,
+          -0.0195
+        ],
+        "max": [
+          0.0795,
+          0.0655,
+          0.059
+        ],
+        "size": [
+          0.159,
+          0.055,
+          0.0785
+        ],
+        "center": [
+          0,
+          0.038,
+          0.0197
+        ]
+      }
+    },
+    {
+      "id": "cape_traveler",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\cape_traveler.glb",
+      "bytes": 1104,
+      "hierarchy": [
+        "world",
+        "  cape_traveler_0 [mesh:cape_traveler_0]"
+      ],
+      "meshes": [
+        {
+          "name": "cape_traveler_0",
+          "vertices": 5,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "red"
+        }
+      ],
+      "materials": [
+        {
+          "name": "red",
+          "baseColor": [
+            0.5686,
+            0.2549,
+            0.2157,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 5,
+      "bounds": {
+        "min": [
+          -0.095,
+          0.1,
+          -0.07
+        ],
+        "max": [
+          0.095,
+          0.31,
+          -0.035
+        ],
+        "size": [
+          0.19,
+          0.21,
+          0.035
+        ],
+        "center": [
+          0,
+          0.205,
+          -0.0525
+        ]
+      }
+    },
+    {
+      "id": "guild_medallion",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\guild_medallion.glb",
+      "bytes": 2364,
+      "hierarchy": [
+        "world",
+        "  guild_medallion_0 [mesh:guild_medallion_0]",
+        "  guild_medallion_1 [mesh:guild_medallion_1]"
+      ],
+      "meshes": [
+        {
+          "name": "guild_medallion_0",
+          "vertices": 14,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "gold"
+        },
+        {
+          "name": "guild_medallion_1",
+          "vertices": 14,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "blue"
+        }
+      ],
+      "materials": [
+        {
+          "name": "gold",
+          "baseColor": [
+            0.7882,
+            0.6196,
+            0.2627,
+            1
+          ]
+        },
+        {
+          "name": "blue",
+          "baseColor": [
+            0.2824,
+            0.4039,
+            0.5451,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 28,
+      "bounds": {
+        "min": [
+          -0.023,
+          0.3021,
+          0.08
+        ],
+        "max": [
+          0.023,
+          0.3419,
+          0.095
+        ],
+        "size": [
+          0.046,
+          0.0398,
+          0.015
+        ],
+        "center": [
+          0,
+          0.322,
+          0.0875
+        ]
+      }
+    },
+    {
+      "id": "hair_messy_brown",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\hair_messy_brown.glb",
+      "bytes": 3472,
+      "hierarchy": [
+        "world",
+        "  hair_messy_brown_0 [mesh:hair_messy_brown_0]",
+        "  hair_messy_brown_1 [mesh:hair_messy_brown_1]"
+      ],
+      "meshes": [
+        {
+          "name": "hair_messy_brown_0",
+          "vertices": 42,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "hair_brown"
+        },
+        {
+          "name": "hair_messy_brown_1",
+          "vertices": 42,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "hair_brown"
+        }
+      ],
+      "materials": [
+        {
+          "name": "hair_brown",
+          "baseColor": [
+            0.2941,
+            0.1882,
+            0.149,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 84,
+      "bounds": {
+        "min": [
+          -0.092,
+          0.342,
+          -0.078
+        ],
+        "max": [
+          0.083,
+          0.442,
+          0.078
+        ],
+        "size": [
+          0.175,
+          0.1,
+          0.156
+        ],
+        "center": [
+          -0.0045,
+          0.392,
+          0
+        ]
+      }
+    },
+    {
+      "id": "hair_short_black",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\hair_short_black.glb",
+      "bytes": 2512,
+      "hierarchy": [
+        "world",
+        "  hair_short_black_0 [mesh:hair_short_black_0]"
+      ],
+      "meshes": [
+        {
+          "name": "hair_short_black_0",
+          "vertices": 42,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "hair_black"
+        }
+      ],
+      "materials": [
+        {
+          "name": "hair_black",
+          "baseColor": [
+            0.1569,
+            0.1529,
+            0.1686,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 42,
+      "bounds": {
+        "min": [
+          -0.08,
+          0.352,
+          -0.076
+        ],
+        "max": [
+          0.08,
+          0.438,
+          0.076
+        ],
+        "size": [
+          0.16,
+          0.086,
+          0.152
+        ],
+        "center": [
+          0,
+          0.395,
+          0
+        ]
+      }
+    },
+    {
+      "id": "hat_baker_cream",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\hat_baker_cream.glb",
+      "bytes": 2504,
+      "hierarchy": [
+        "world",
+        "  hat_baker_cream_0 [mesh:hat_baker_cream_0]"
+      ],
+      "meshes": [
+        {
+          "name": "hat_baker_cream_0",
+          "vertices": 42,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "cloth_cream"
+        }
+      ],
+      "materials": [
+        {
+          "name": "cloth_cream",
+          "baseColor": [
+            0.8627,
+            0.7922,
+            0.6157,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 42,
+      "bounds": {
+        "min": [
+          -0.071,
+          0.376,
+          -0.069
+        ],
+        "max": [
+          0.071,
+          0.486,
+          0.069
+        ],
+        "size": [
+          0.142,
+          0.11,
+          0.138
+        ],
+        "center": [
+          0,
+          0.431,
+          0
+        ]
+      }
+    },
+    {
+      "id": "hat_farmer_straw",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\hat_farmer_straw.glb",
+      "bytes": 2772,
+      "hierarchy": [
+        "world",
+        "  hat_farmer_straw_0 [mesh:hat_farmer_straw_0]",
+        "  hat_farmer_straw_1 [mesh:hat_farmer_straw_1]"
+      ],
+      "meshes": [
+        {
+          "name": "hat_farmer_straw_0",
+          "vertices": 18,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "cloth_cream"
+        },
+        {
+          "name": "hat_farmer_straw_1",
+          "vertices": 10,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "gold"
+        }
+      ],
+      "materials": [
+        {
+          "name": "cloth_cream",
+          "baseColor": [
+            0.8627,
+            0.7922,
+            0.6157,
+            1
+          ]
+        },
+        {
+          "name": "gold",
+          "baseColor": [
+            0.7882,
+            0.6196,
+            0.2627,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 28,
+      "bounds": {
+        "min": [
+          -0.095,
+          0.338,
+          -0.009
+        ],
+        "max": [
+          0.095,
+          0.531,
+          0.065
+        ],
+        "size": [
+          0.19,
+          0.193,
+          0.074
+        ],
+        "center": [
+          0,
+          0.4345,
+          0.028
+        ]
+      }
+    },
+    {
+      "id": "shoulder_guard_pair",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\shoulder_guard_pair.glb",
+      "bytes": 3476,
+      "hierarchy": [
+        "world",
+        "  shoulder_guard_pair_0 [mesh:shoulder_guard_pair_0]",
+        "  shoulder_guard_pair_1 [mesh:shoulder_guard_pair_1]"
+      ],
+      "meshes": [
+        {
+          "name": "shoulder_guard_pair_0",
+          "vertices": 42,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "steel"
+        },
+        {
+          "name": "shoulder_guard_pair_1",
+          "vertices": 42,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "steel"
+        }
+      ],
+      "materials": [
+        {
+          "name": "steel",
+          "baseColor": [
+            0.4118,
+            0.4667,
+            0.502,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 84,
+      "bounds": {
+        "min": [
+          -0.12,
+          0.267,
+          -0.035
+        ],
+        "max": [
+          0.12,
+          0.337,
+          0.035
+        ],
+        "size": [
+          0.24,
+          0.07,
+          0.07
+        ],
+        "center": [
+          0,
+          0.302,
+          0
+        ]
+      }
+    },
+    {
+      "id": "tunic_forest",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\kit_v2\\wt_work\\assets\\glb\\tunic_forest.glb",
+      "bytes": 2688,
+      "hierarchy": [
+        "world",
+        "  tunic_forest_0 [mesh:tunic_forest_0]",
+        "  tunic_forest_1 [mesh:tunic_forest_1]"
+      ],
+      "meshes": [
+        {
+          "name": "tunic_forest_0",
+          "vertices": 18,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "cloth_green"
+        },
+        {
+          "name": "tunic_forest_1",
+          "vertices": 8,
+          "attributes": [
+            "POSITION"
+          ],
+          "material": "cloth_cream"
+        }
+      ],
+      "materials": [
+        {
+          "name": "cloth_green",
+          "baseColor": [
+            0.3569,
+            0.5176,
+            0.3255,
+            1
+          ]
+        },
+        {
+          "name": "cloth_cream",
+          "baseColor": [
+            0.8627,
+            0.7922,
+            0.6157,
+            1
+          ]
+        }
+      ],
+      "skins": 0,
+      "vertexColors": false,
+      "totalVertices": 26,
+      "bounds": {
+        "min": [
+          -0.071,
+          0.167,
+          -0.0725
+        ],
+        "max": [
+          0.071,
+          0.309,
+          0.0835
+        ],
+        "size": [
+          0.142,
+          0.142,
+          0.156
+        ],
+        "center": [
+          0,
+          0.238,
+          0.0055
+        ]
+      }
+    },
+    {
+      "id": "accessory_adventurer_pack",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\accessory_adventurer_pack.glb",
+      "bytes": 3996,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]",
+        "  part_3 [mesh:mesh_3]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 8,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 8,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 14,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_3",
+          "vertices": 14,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 44,
+      "bounds": {
+        "min": [
+          -0.0777,
+          0.1575,
+          -0.111
+        ],
+        "max": [
+          0.0777,
+          0.285,
+          -0.0426
+        ],
+        "size": [
+          0.1553,
+          0.1275,
+          0.0684
+        ],
+        "center": [
+          0,
+          0.2212,
+          -0.0768
+        ]
+      }
+    },
+    {
+      "id": "accessory_bronze_pauldron_pair",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\accessory_bronze_pauldron_pair.glb",
+      "bytes": 5800,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]",
+        "  part_3 [mesh:mesh_3]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_3",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 168,
+      "bounds": {
+        "min": [
+          -0.115,
+          0.252,
+          -0.04
+        ],
+        "max": [
+          0.115,
+          0.308,
+          0.04
+        ],
+        "size": [
+          0.23,
+          0.056,
+          0.08
+        ],
+        "center": [
+          0,
+          0.28,
+          0
+        ]
+      }
+    },
+    {
+      "id": "accessory_circlet",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\accessory_circlet.glb",
+      "bytes": 5388,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 18,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 102,
+      "bounds": {
+        "min": [
+          -0.072,
+          0.293,
+          -0.01
+        ],
+        "max": [
+          0.072,
+          0.336,
+          0.019
+        ],
+        "size": [
+          0.144,
+          0.043,
+          0.029
+        ],
+        "center": [
+          0,
+          0.3145,
+          0.0045
+        ]
+      }
+    },
+    {
+      "id": "accessory_crystal_pendant",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\accessory_crystal_pendant.glb",
+      "bytes": 5224,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 14,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 98,
+      "bounds": {
+        "min": [
+          -0.04,
+          0.27,
+          0.071
+        ],
+        "max": [
+          0.04,
+          0.3235,
+          0.098
+        ],
+        "size": [
+          0.08,
+          0.0535,
+          0.027
+        ],
+        "center": [
+          0,
+          0.2967,
+          0.0845
+        ]
+      }
+    },
+    {
+      "id": "accessory_sapphire_earrings",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\accessory_sapphire_earrings.glb",
+      "bytes": 5536,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]",
+        "  part_3 [mesh:mesh_3]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 14,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 14,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_3",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 112,
+      "bounds": {
+        "min": [
+          -0.07,
+          0.317,
+          0.007
+        ],
+        "max": [
+          0.07,
+          0.36,
+          0.023
+        ],
+        "size": [
+          0.14,
+          0.043,
+          0.016
+        ],
+        "center": [
+          0,
+          0.3385,
+          0.015
+        ]
+      }
+    },
+    {
+      "id": "accessory_scarf",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\accessory_scarf.glb",
+      "bytes": 4956,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 8,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 92,
+      "bounds": {
+        "min": [
+          -0.05,
+          0.303,
+          0.068
+        ],
+        "max": [
+          0.05,
+          0.356,
+          0.108
+        ],
+        "size": [
+          0.1,
+          0.053,
+          0.04
+        ],
+        "center": [
+          0,
+          0.3295,
+          0.088
+        ]
+      }
+    },
+    {
+      "id": "hair_long_braid",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\hair_long_braid.glb",
+      "bytes": 13904,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]",
+        "  part_3 [mesh:mesh_3]",
+        "  part_4 [mesh:mesh_4]",
+        "  part_5 [mesh:mesh_5]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 162,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_3",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_4",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_5",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 372,
+      "bounds": {
+        "min": [
+          -0.079,
+          0.297,
+          -0.074
+        ],
+        "max": [
+          0.079,
+          0.445,
+          0.107
+        ],
+        "size": [
+          0.158,
+          0.148,
+          0.181
+        ],
+        "center": [
+          0,
+          0.371,
+          0.0165
+        ]
+      }
+    },
+    {
+      "id": "hair_mage_swept",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\hair_mage_swept.glb",
+      "bytes": 12048,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]",
+        "  part_3 [mesh:mesh_3]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 162,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_3",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 288,
+      "bounds": {
+        "min": [
+          -0.08,
+          0.34,
+          -0.079
+        ],
+        "max": [
+          0.08,
+          0.46,
+          0.091
+        ],
+        "size": [
+          0.16,
+          0.12,
+          0.17
+        ],
+        "center": [
+          0,
+          0.4,
+          0.006
+        ]
+      }
+    },
+    {
+      "id": "hair_twin_buns",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\hair_twin_buns.glb",
+      "bytes": 12988,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]",
+        "  part_3 [mesh:mesh_3]",
+        "  part_4 [mesh:mesh_4]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 162,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_3",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_4",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 330,
+      "bounds": {
+        "min": [
+          -0.109,
+          0.34,
+          -0.073
+        ],
+        "max": [
+          0.109,
+          0.449,
+          0.073
+        ],
+        "size": [
+          0.218,
+          0.109,
+          0.146
+        ],
+        "center": [
+          0,
+          0.3945,
+          0
+        ]
+      }
+    },
+    {
+      "id": "outfit_knight_surcoat",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\outfit_knight_surcoat.glb",
+      "bytes": 7936,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]",
+        "  part_3 [mesh:mesh_3]",
+        "  part_4 [mesh:mesh_4]",
+        "  part_5 [mesh:mesh_5]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 16,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 8,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 8,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_3",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_4",
+          "vertices": 18,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_5",
+          "vertices": 18,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 110,
+      "bounds": {
+        "min": [
+          -0.1302,
+          0.165,
+          -0.0665
+        ],
+        "max": [
+          0.1302,
+          0.315,
+          0.097
+        ],
+        "size": [
+          0.2604,
+          0.15,
+          0.1635
+        ],
+        "center": [
+          0,
+          0.24,
+          0.0152
+        ]
+      }
+    },
+    {
+      "id": "outfit_mage_robe",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\outfit_mage_robe.glb",
+      "bytes": 8048,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]",
+        "  part_3 [mesh:mesh_3]",
+        "  part_4 [mesh:mesh_4]",
+        "  part_5 [mesh:mesh_5]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 16,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 16,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 8,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_3",
+          "vertices": 42,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_4",
+          "vertices": 18,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_5",
+          "vertices": 18,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 118,
+      "bounds": {
+        "min": [
+          -0.1306,
+          0.145,
+          -0.0767
+        ],
+        "max": [
+          0.1306,
+          0.3175,
+          0.088
+        ],
+        "size": [
+          0.2612,
+          0.1725,
+          0.1647
+        ],
+        "center": [
+          0,
+          0.2312,
+          0.0057
+        ]
+      }
+    },
+    {
+      "id": "outfit_ranger_vest",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\outfit_ranger_vest.glb",
+      "bytes": 5296,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]",
+        "  part_3 [mesh:mesh_3]",
+        "  part_4 [mesh:mesh_4]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 16,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 8,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 18,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_3",
+          "vertices": 18,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_4",
+          "vertices": 8,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 68,
+      "bounds": {
+        "min": [
+          -0.1236,
+          0.165,
+          -0.0619
+        ],
+        "max": [
+          0.1236,
+          0.315,
+          0.076
+        ],
+        "size": [
+          0.2472,
+          0.15,
+          0.1379
+        ],
+        "center": [
+          0,
+          0.24,
+          0.0071
+        ]
+      }
+    },
+    {
+      "id": "outfit_traveler_coat",
+      "file": "D:\\Wildan\\WanderTales Guild\\incoming\\expansion_v1\\WanderTales_Expansion_v1\\assets\\glb\\outfit_traveler_coat.glb",
+      "bytes": 5316,
+      "hierarchy": [
+        "world",
+        "  part_0 [mesh:mesh_0]",
+        "  part_1 [mesh:mesh_1]",
+        "  part_2 [mesh:mesh_2]",
+        "  part_3 [mesh:mesh_3]",
+        "  part_4 [mesh:mesh_4]"
+      ],
+      "meshes": [
+        {
+          "name": "mesh_0",
+          "vertices": 16,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_1",
+          "vertices": 8,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_2",
+          "vertices": 8,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_3",
+          "vertices": 18,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        },
+        {
+          "name": "mesh_4",
+          "vertices": 18,
+          "attributes": [
+            "POSITION",
+            "COLOR_0"
+          ],
+          "material": null
+        }
+      ],
+      "materials": [],
+      "skins": 0,
+      "vertexColors": true,
+      "totalVertices": 68,
+      "bounds": {
+        "min": [
+          -0.1243,
+          0.15,
+          -0.0647
+        ],
+        "max": [
+          0.1243,
+          0.31,
+          0.082
+        ],
+        "size": [
+          0.2487,
+          0.16,
+          0.1467
+        ],
+        "center": [
+          0,
+          0.23,
+          0.0087
+        ]
+      }
+    }
+  ]
+}
